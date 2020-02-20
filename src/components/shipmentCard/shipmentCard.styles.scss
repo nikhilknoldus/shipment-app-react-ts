@@ -1,0 +1,49 @@
+.shipment-card-container {
+    box-shadow: 0px 2px 0px 1px rgb(63, 63, 63);
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    transition: box-shadow 0.5s;
+    padding: 1rem 1rem 0.5rem;
+    color: #707070;
+    background: #262628;
+    border-bottom: 58px solid #323232;
+    border-top: 3px solid darkslategray;
+    border-radius: 0.6em;
+    &:hover {
+        cursor: pointer;
+        box-shadow: 0 0px 4px 4px rgb(83, 82, 82);
+    }
+}
+
+.shipment-card-content {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    &__shipment-info {
+        font-weight: 500;
+        margin: 6px 0;
+        font-size: 15px;
+    }
+    &__shipment-info-value {
+        font-weight: lighter;
+    }
+    &__shipment-name {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 850px) {
+    .card-container {
+        margin-bottom: 20px;
+    }
+}
+
+.view-link {
+    padding-top: 1em;
+    color: #078076;
+    text-decoration: none;
+    text-transform: capitalize;
+
+}

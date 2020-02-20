@@ -1,0 +1,27 @@
+.prev-page,
+.next-page,
+.current-page {
+    padding: 0px 10px;
+}
+
+.prev-page,
+.next-page {
+    color: blue;
+}
+
+.current-page {
+    color: red;
+    text-decoration: underline;
+}
+
+.page-style{
+    background: #0f0000;
+    padding: 2em;
+}
+
+.button-style {
+    background: black;
+    color: white;
+    border: 1px solid darkslategrey;
+    height: 25px;
+}
